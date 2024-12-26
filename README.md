@@ -27,7 +27,7 @@ cd <your-repository-name>
 4. Initialize the development environment:
 This project uses ```uv``` as package manager. 
 ```bash
-uc sync
+uv sync
 uv pip install -e . # to use local cli
 ```
 This will:
